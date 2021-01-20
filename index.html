@@ -1,21 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Pestaña 1 </title>
 </head>
 <body>
     
-    + Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquid possimus impedit ullam illum. Facere porro consequuntur neque explicabo voluptatem expedita, laborum inventore a ipsa adipisci nam nisi tempore voluptas!
+    <h1 style="text-align: center;"> Topología para principiantes </h1>
     
-    - Uff, yo no entiendo latín... ¿Puedes traducírmelo?
+    <p> En el siguiente vídeo puede encontrar una primera toma de contacto con la <b> topología </b>:
+	    <a href = "https://www.youtube.com/watch?v=C-eJW0gEm5w" target = "_blank"> Intro to topology. </a>
+    </p>
+    
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Four_Colour_Map_Example.svg/200px-Four_Colour_Map_Example.svg.png">
+	<p> Veamos también un ejemplo de CSS y de JavaScript. Al pusar el botón, cambiamos el contenido del siguiente texto de color azul: </p>
+	<p style='color: blue' id = 'demo'> Hola k ase? </p>
 
-    + La traducción sería: No es más rico el que más tiene, sino el que menos necesita
-    
-    - Eso te lo acabas de inventar 100% xd
+	<button type = "button" onclick = "document.getElementById('demo').innerHTML = 'Tonto el que lo lea!'"> Pulsa para cambiar la frase anterior </button>
 
-    + Jajajaja, me has pillado! Yo tampoco sé latín ;)
-    
+    <br> Vamos a crear una lista de frutas:
+
+	<ul>
+        <li> Manzanas </li>
+        <li> Plátanos </li>
+        <li> Naranjas </li>
+        <li> Uvas </li>
+        <li> Limones </li>
+	</ul>
+
+    Estos son los mejores jugadores de la historia de la NBA:
+
+	<ol>
+        <li> Micahel Jordan </li>
+        <li> LeBron James </li>
+        <li> Kobe Bryant </li>
+	</ol>
+
+    Probamos a crear una tabla:
+
+	<!-- Esto es un comentario que no se ve luego en la página -->
+
+	<table>
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Email </th>
+                <th> Age </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Guillermo </td>
+                <td> geminis@gmail.com </td>
+                <td> 23 </td>
+            </tr>
+            <tr>
+                <td> Pablo </td>
+                <td> capricornio@yahoo.com </td>
+                <td> 24 </td>
+            </tr>
+        </tbody>
+	</table>
+
+    <div style="margin-top:200px"></div>
+
 </body>
 </html>
